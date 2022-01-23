@@ -1,0 +1,75 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-family: "tw cen mt";
+ vertical-align: top;
+}
+body{
+ background-color: rgb(213, 213, 224);
+}
+form{
+ margin: 20px auto;
+ width: 500px;
+ background: rgb(238, 243, 243);
+ border-radius: 15px;
+}
+span { 
+    height: 100%;
+    vertical-align: top;
+    display: inline-block; }
+
+fieldset{
+ padding: 12px;
+}
+
+label{
+ padding: 12px;
+ font-weight: bold;
+ color: white;
+ margin-bottom: 10px;
+}
+fieldset{
+ font-weight: bold;
+}
+
+input[type='number'],input[type='text']{
+ padding: 4px;
+ width: 20em;
+ margin-bottom: 10px;
+ background-color: #f6eef7;
+ border:none;
+ border-radius: 3px;
+}
+select{
+ padding: 2px;
+ margin-bottom: 10px;
+}
+h3{
+ padding: 10px;
+ text-align: center;
+ color: rgb(152, 218, 218);
+ background-color: blue;
+ margin-bottom: 10px;
+ border-radius: 7px;
+ width: 31%;
+ margin-left: -10px;
+}
+input[type='button']{
+ margin-bottom: 20px;
+ background-color: rgb(107, 26, 182);
+ border: 20;
+ border-color: cornsilk;
+ padding: 15px;
+ color: rgb(255, 255, 255);
+ border-radius: 15px;
+}
+
+input[type='reset']{
+margin-bottom: 20px;
+background-color: red;
+border: 20;
+border-color: cornsilk;
+padding: 15px;
+color: rgb(255, 255, 255);
+border-radius: 15px;
+}
